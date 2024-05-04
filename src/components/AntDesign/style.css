@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.ant-image-preview-root .ant-image-preview-img {
+    max-width: max-content;
+}
+.img-border{
+    border-top-left-radius: 8px;
+}
+.card-w .ant-card-actions{
+    padding-right: 30px;
+}
+.first-btn{
+    background-color: black;
+}
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: black;
+    border: 1px solid #222;
+}
+.flot-btn .ant-float-btn{
+    padding: 10px 20px;
+}
+.card-btn{
+    padding: 21px 52px;
+    background-color: tan;
+}
+.ant-menu-item span {
+    left: 27px;
+}
+.ant-menu .ant-menu-item .anticon +span{
+    margin-inline-start: 25px;
+}
+.ant-menu-dark .ant-menu-item-selected{
+    background-color: #4c6280;
+}
+.ant-card .ant-card-meta {
+    align-items: baseline;
+}
+.next-icon{
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+}
+.ant-dropdown .ant-dropdown-menu{
+    height: 140px;
+    width: 80px;
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item{
+    padding: 19px 12px;
+}

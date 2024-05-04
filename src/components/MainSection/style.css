@@ -1,0 +1,176 @@
+.main-bg {
+    padding: 107px 0 154px 0;
+}
+
+.heding-tx {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #3846CE;
+}
+
+.regular-tx {
+    font-size: 24px;
+    line-height: 31px;
+    color: #818181;
+    padding-top: 21px;
+}
+
+.row {
+    align-items: center;
+    padding: 0 110px;
+}
+
+.form-padding {
+    padding-top: 38px;
+}
+
+.d-flex {
+    align-items: baseline;
+}
+
+.form-control {
+    padding: 10px 25px 10px 43px;
+    font-size: 16px;
+    border: 1px solid #3846CE;
+    border-radius: 8px;
+}
+
+.register-btn {
+    margin: 0px 9px !important;
+}
+
+img {
+    width: 100%;
+}
+.f-position{
+    position: relative;
+}
+
+span {
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+@media (max-width:1199px) {
+    .form-padding {
+        display: block !important;
+    }
+
+    [type=button]:not(:disabled),
+    button:not(:disabled) {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width:991px) {
+    .col-order {
+        order: 2;
+        padding-top: 50px !important;
+    }
+
+    .row {
+        display: grid;
+    }
+}
+
+@media (max-width:767px) {
+    .row {
+        padding: 0;
+    }
+
+    .img-align {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heding-tx,
+    .regular-tx,
+    .form-padding {
+        text-align: center;
+    }
+
+    .regular-tx {
+        font-size: 21px;
+    }
+
+    .heding-tx {
+        font-size: 45px;
+    }
+
+    .box-align {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width:575px) {
+
+    .align {
+        height: auto;
+    }
+
+    .row {
+        width: 100%;
+        padding: 0 0 0 22px !important;
+        display: grid;
+    }
+
+    .heding-tx {
+        font-size: 42px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main-bg {
+        padding: 85px 0;
+    }
+
+    .heding-tx {
+        line-height: 55px;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .main-bg {
+        padding: 50px 0;
+    }
+
+    .heding-tx {
+        font-size: 35px;
+    }
+
+    .regular-tx {
+        font-size: 18px;
+    }
+
+    .regular-tx {
+        padding-top: 10px;
+    }
+
+    .form-padding {
+        padding-top: 20px;
+    }
+
+    .heding-tx {
+        line-height: 50px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .heding-tx {
+        line-height: 45px;
+    }
+}
